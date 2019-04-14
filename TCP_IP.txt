@@ -1,0 +1,17 @@
+C:\Windows\System32\drivers\etc\service파일 메모장으로 열면
+포트 볼 수 있음
+
+socket => ip + port
+
+port 16bit  : 0~65585  (0~1023        Wellknown : 모든 운영체제가 다 똑같음
+		     1024~49151   Registerd
+		     49152~65535 Dynamic
+
+ipv4 32bit  
+ipv6 128bit 
+
+
+mac 48bit
+      window => 00-00-00-00-00-01
+      linux    =>  00:00:00:00:00:01
+      cisco   =>  0000.0000.0001

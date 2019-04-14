@@ -1,0 +1,7 @@
+# 필요 Data 만 추출
+
+- Squence data type : Slicing
+- String : String 관련함수 -> split(), replace(), join(),,,
+- Regular Expression [Re] ->
+	-> 기호 : . * + ? [ ]
+	-> 함수 : match, search, findall, ,,,,

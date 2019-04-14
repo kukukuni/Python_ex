@@ -1,0 +1,17 @@
+# Date Type
+
+# 단일 Type
+int	: 정수
+float	: 실수
+str	: 문자열
+bool	: Boolean
+complex	: 복소수
+-----------------------------------------
+None	: 빈공간
+-----------------------------------------
+# 복합 Type (Sequence)
+List	: [...]		-> 수정,중복 가능
+Tuple	: (...)		-> 수정 불가
+Set	: {...}		-> 중복 불가
+Dict	: { key:value,,,}	-> Key:Value
+

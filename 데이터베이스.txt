@@ -1,0 +1,34 @@
+1. Question 갯수?			=> SubQuery
+
+2. Table     갯수?			=> Join
+
+3. 조건의 갯수, 위치, 유형?		=> Table from where
+				    집계함수 sum, avg, min, max, count
+				    집계함수 결과 group by having
+				    0 : Join조건 (Table이 2개 이상일때)
+				    1 : Point조건 (이값이 이값이다; = )
+				    2 : 범위조건 (크다작다; >,<,between)
+				    3 : 열거조건 ( ;in )
+				    4 : 패턴조건, 매칭조건(무슨값으로 시작,
+						         이값이 들어간다; like)
+				    5 : 비어있는 값(Null 상태; is)
+
+----------------------------------------------
+
+데이터베이스에 반드시 있어야 하는 요소
+데이터베이스 모델링할때 필요한 것
+
+CRUD(create, read, update, delete)
+
+----------------------------------------------
+
+sql
+
+ddl
+
+dml(insert, update, delete, select)
+
+dcl
+
+----------------------------------------------
+

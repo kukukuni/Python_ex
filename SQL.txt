@@ -1,0 +1,24 @@
+# SQL (DBMS Data 처리 언어)
+
+
+1. DDL : 정의(Definition) -> 틀   (Auto-Commit DB모든 프로그램이 그럼)
+	create, drop, alter
+	truncate(이걸로 지우는 것은 기록까지 지워서 복구가 안됨)
+	          	
+
+2. DML : 조작(Manipulation) -> Data
+	insert, update, delete
+	select
+			MS는 오토커밋이고
+			오라클은 commit해야 저장(수동 커밋)
+
+
+3. DCL : 제어(Control) -> 권한
+	grant(권한주기), revoke(줬던 권한 뺏기), deny(권한 안주기)
+	deny는 MSsql에만 있다.	
+
+
+
+4. TCL : 트랜잭션(Transaction)
+	commit(메모리에서 디스크로 저장), rollback(저장안함)
+

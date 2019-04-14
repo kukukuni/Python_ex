@@ -1,0 +1,15 @@
+# SQL (DBMS Data 처리 언어)
+
+1. DDL : 정의(Definition) -> 틀	(Auto-Commit)
+	create, drop, alter
+	truncate
+2. DML : 조작(Manipulation) -> Data
+	insert, update, delete
+	select 
+		Oracle : 수동 Commit
+		MSSQL: Auto-Commit
+3. DCL : 제어(Control) -> 권한
+	grant, revoke, deny(MSSQL)
+
+4. TCL : 트랜잭션(Transaction)
+	commit,  rollback
